@@ -420,7 +420,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.AI.Navigation::Unity.AI.Navigation.NavMeshLink
   m_SerializedVersion: 1
   m_AgentTypeID: 0
-  m_StartPoint: {x: -0.42, y: 0, z: 1.77}
+  m_StartPoint: {x: -0.42, y: -0.88865566, z: 1.7700005}
   m_EndPoint: {x: 0, y: -12.38, z: -0.7545271}
   m_StartTransform: {fileID: 0}
   m_EndTransform: {fileID: 0}
@@ -428,7 +428,7 @@ MonoBehaviour:
   m_Width: 0
   m_CostModifier: 1
   m_IsOverridingCost: 0
-  m_Bidirectional: 0
+  m_Bidirectional: 1
   m_AutoUpdatePosition: 0
   m_Area: 0
 --- !u!4 &81966813
@@ -1987,6 +1987,7 @@ GameObject:
   - component: {fileID: 740613127}
   - component: {fileID: 740613125}
   - component: {fileID: 740613128}
+  - component: {fileID: 740613130}
   m_Layer: 3
   m_Name: player
   m_TagString: Player
@@ -2143,6 +2144,22 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 96
   m_CollisionDetection: 2
+--- !u!114 &740613130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740613120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe58df89b5b74a97a123b5ed2b70422, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.State::Unity.VisualScripting.StateMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 6a101728c56d8af4e9bf08bfeb21d087, type: 2}
 --- !u!1 &759980396
 GameObject:
   m_ObjectHideFlags: 0
