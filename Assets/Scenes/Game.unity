@@ -816,30 +816,13 @@ GameObject:
   - component: {fileID: 710703695}
   - component: {fileID: 710703694}
   - component: {fileID: 710703693}
-  - component: {fileID: 710703692}
   m_Layer: 7
-  m_Name: enemy
+  m_Name: enemy attack
   m_TagString: EnemyAttack
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &710703692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 710703691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 2044341a8ede41d419fb72898b143c75, type: 2}
 --- !u!114 &710703693
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,10 +1066,9 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Agent","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AI.NavMeshAgent,
-      UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":21.0,"y":161.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-342.0,"y":-192.0},"guid":"7cbabc81-e687-4ff0-8913-f2d83be7aa72","$version":"A","$type":"Unity.VisualScripting.Update"},{"defaultValues":{"Player":null,"Speed":{"$content":5.0,"$type":"System.Single"},"Horizontal
-      Axis":{"$content":"Horizontal","$type":"System.String"},"Vertical Axis":{"$content":"Vertical","$type":"System.String"}},"position":{"x":-68.0,"y":-101.0},"guid":"96c64e89-bc14-44a1-8eb4-30d43ad1d004","$version":"A","$type":"MovePlayerWithInput+MovePlayerNode"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Player","$type":"System.String"}},"position":{"x":-375.0,"y":-48.0},"guid":"e12bba14-9643-4565-8f44-fc820cac683c","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"coroutine":false,"defaultValues":{},"position":{"x":-362.0,"y":124.0},"guid":"caaceb93-ac22-47de-ad0c-0b8e9f9387c1","$version":"A","$type":"Unity.VisualScripting.Update","$id":"18"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Agent","$type":"System.String"}},"position":{"x":-371.0,"y":286.0},"guid":"15469015-ed5a-475d-80ac-344ed5e0e80e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"20"},{"defaultValues":{"NavMesh
+      UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-30.0,"y":209.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-362.0,"y":124.0},"guid":"caaceb93-ac22-47de-ad0c-0b8e9f9387c1","$version":"A","$type":"Unity.VisualScripting.Update","$id":"12"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"Agent","$type":"System.String"}},"position":{"x":-371.0,"y":286.0},"guid":"15469015-ed5a-475d-80ac-344ed5e0e80e","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"defaultValues":{"NavMesh
       Agent":null,"Move Speed":{"$content":5.0,"$type":"System.Single"},"Jump Force":{"$content":8.0,"$type":"System.Single"},"Air
-      Control":{"$content":0.5,"$type":"System.Single"}},"position":{"x":-124.0,"y":186.0},"guid":"1db5e0aa-614b-4e28-be50-5c0cd3b5ec6d","$version":"A","$type":"MoveAndJump+MoveJumpSmoothNode","$id":"22"},{"sourceUnit":{"$ref":"18"},"sourceKey":"trigger","destinationUnit":{"$ref":"22"},"destinationKey":"Update","guid":"2ea4a3e4-7506-433f-bb7b-889455560d28","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"NavMesh
+      Control":{"$content":0.5,"$type":"System.Single"}},"position":{"x":-123.0,"y":163.0},"guid":"1db5e0aa-614b-4e28-be50-5c0cd3b5ec6d","$version":"A","$type":"MoveAndJump+MoveJumpSmoothNode","$id":"16"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"Update","guid":"2ea4a3e4-7506-433f-bb7b-889455560d28","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"NavMesh
       Agent","guid":"8f651256-5316-45ab-8434-a7a33f24be73","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 740613124}
@@ -1320,6 +1302,75 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1085398082
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1085398085}
+  - component: {fileID: 1085398084}
+  - component: {fileID: 1085398083}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1085398083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085398082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 7f89de6f2e5f4454fb1f5e8d77036ed9, type: 2}
+--- !u!114 &1085398084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085398082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Spawner","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Transform,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"CD","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Enemies","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 1085398085}
+    - {fileID: 6468658976835586005, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
+--- !u!4 &1085398085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085398082}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.78, y: 0.74985, z: -2.83}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1133411552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2573,3 +2624,4 @@ SceneRoots:
   - {fileID: 1590080701}
   - {fileID: 710703697}
   - {fileID: 161244427}
+  - {fileID: 1085398085}
