@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - EnemyAttack
   - HpUP
+  - Ground
   layers:
   - Default
   - TransparentFX

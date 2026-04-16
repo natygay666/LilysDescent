@@ -48,8 +48,6 @@ public class EnemyAI : MonoBehaviour
                 HandleAttackingState();
                 break;
         }
-        
-        // Actualizar la animación según el estado actual
         UpdateAnimation();
     }
 
@@ -97,10 +95,9 @@ public class EnemyAI : MonoBehaviour
 
     private void HandleAttackingState()
     {
-        // Aquí puedes implementar la lógica de ataque
-        Debug.Log("Atacando al jugador");
-
-        // Alternar entre dos tipos de ataque
+       
+        Debug.Log("attacking player");
+        
         if (Random.value < 0.5f)
         {
             AttackType1();
@@ -109,8 +106,6 @@ public class EnemyAI : MonoBehaviour
         {
             AttackType2();
         }
-
-        // Regresar a PlayerAggro después de un ataque
         currentState = EnemyState.PlayerAggro;
     }
 
@@ -132,13 +127,13 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackType1()
     {
-        Debug.Log("Realizando ataque tipo 1");
-        // Implementa la lógica del ataque tipo 1 aquí
+        Debug.Log("Bite attack");
+        
     }
 
     private void AttackType2()
     {
-        Debug.Log("Realizando ataque tipo 2");
-        // Implementa la lógica del ataque tipo 2 aquí
+        Debug.Log("Scratch attack");
+        
     }
 }
