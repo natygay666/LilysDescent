@@ -173,7 +173,7 @@ MonoBehaviour:
       - rid: 5749909612643483849
       - rid: 5749909612643483850
       - rid: 5749909612643483851
-      - rid: 5749909612643483852
+      - rid: 5749909631612223735
       - rid: 5749909612643483853
       - rid: 5749909612643483854
       - rid: 5749909612643483855
@@ -482,7 +482,10 @@ MonoBehaviour:
           m_CustomPostProcessTypesAsString: []
         m_BeforePostProcessCustomPostProcesses:
           m_InjectionPoint: 1
-          m_CustomPostProcessTypesAsString: []
+          m_CustomPostProcessTypesAsString:
+          - PixelationEffect, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+            PublicKeyToken=null
+          - Dithering, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
         m_AfterPostProcessBlursCustomPostProcesses:
           m_InjectionPoint: 4
           m_CustomPostProcessTypesAsString: []
@@ -708,11 +711,6 @@ MonoBehaviour:
       data:
         m_Version: 0
         m_AutoRegisterDiffusionProfiles: 0
-    - rid: 5749909612643483852
-      type: {class: LookDevVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
-      data:
-        m_Version: 0
-        m_VolumeProfile: {fileID: 0}
     - rid: 5749909612643483853
       type: {class: HDRenderPipelineEditorMaterials, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
       data:
@@ -880,3 +878,8 @@ MonoBehaviour:
         m_setupCS: {fileID: 7200000, guid: 33be2e9a5506b2843bdb2bdff9cad5e1, type: 3}
         m_preTaaCS: {fileID: 7200000, guid: a679dba8ec4d9ce45884a270b0e22dda, type: 3}
         m_taaCS: {fileID: 7200000, guid: 3923900e2b41b5e47bc25bfdcbcdc9e6, type: 3}
+    - rid: 5749909631612223735
+      type: {class: LookDevVolumeProfileSettings, ns: UnityEngine.Rendering.HighDefinition, asm: Unity.RenderPipelines.HighDefinition.Runtime}
+      data:
+        m_Version: 0
+        m_VolumeProfile: {fileID: 11400000, guid: 123eb6641f25ac84abf442b1e028c721, type: 2}
