@@ -9,11 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 87182ed56e0065440817b71d5f04d665
   - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 616c43a35abb8434eac3abcf34b3f351
+  - enabled: 1
     path: Assets/Scenes/StartCinematic.unity
     guid: ba987cd4aa7e1524b91dc012efefc5c5
   - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: cc15b52a49d5e77498ec0c4ef430162f
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 4b1ae86acf99b544c9387a4129b1fe7a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
