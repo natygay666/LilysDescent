@@ -228,7 +228,21 @@ public class GameUIController : MonoBehaviour
     {
         ShowControlsPopup();
     }
-    
+
+    public void UpdateHealthSlider(int playerHp, int playerMaxHp)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void UpdateUltiSlider(int ultiValue)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void UpdateInventoryUI(List<string> inventory)
+    {
+        throw new System.NotImplementedException();
+    }
 }
 [System.Serializable]
 public class PlayerSaveData
@@ -236,3 +250,5 @@ public class PlayerSaveData
     public int PlayerHp;
     public int UltiValue;
 }
+
+

@@ -1,62 +1,24 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
+
 public class PlayerMovement : MonoBehaviour
 {
-  
-[SerializeField]
-    private float speed = 5f;
+    public float speed;
+    public float rotationSpeed;
 
-[SerializeField]
-private float mouseSensitivity = 5f;
-
-[SerializeField] private InputAction jump;
-
-[SerializeField]
-float jumpForce = 10f;
-
-private Rigidbody rb;
-
-private Vector3 moveDirection;
-
-private float rotationY;
-
-private void Start()
-{
-    rb = GetComponent<Rigidbody>();
-}
-
-private void OnEnable()
-{
-    jump.Enable();
-    
-}
-
-private void OnFixedUpdate()
-{
-    if (jump.IsPressed())
-    {
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-    }
-    
-}
     void Update()
     {
-        void HandleMovement()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        
-        moveDirection = new Vector3(horizontal, 0f, vertical).normalized;
-        
-        transform.Translate(moveDirection * speed * Time.deltaTime);
-    }
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        void HandleRotation()
-    {
-        float moauseX = Input.GetAxis("Mouse X");
-        rotationY += moauseX * mouseSensitivity;
+        Vector3 movementDirection = new Vector3(horizontalInput, 0, verticalInput);
+        movementDirection.Normalize();
+
+        transform.Translate(movementDirection * speed * Time.deltaTime, Space.World);
         
-        transform.rotation = Quaternion.Euler(0f, rotationY, 0f);
-     }
+        if (movementDirection != Vector3.zero)
+        {
+            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);            
+        }
     }
 }
