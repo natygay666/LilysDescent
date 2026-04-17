@@ -38,7 +38,8 @@ public class PlayerMovement : MonoBehaviour
         Vector3 movementDirection = camForward * verticalInput + camRight * horizontalInput;
         movementDirection.Normalize();
 
-        transform.Translate(movementDirection * speed * Time.deltaTime, Space.World);
+        Vector3 velocity = movementDirection * speed;
+        rb.linearVelocity = new Vector3(velocity.x, rb.linearVelocity.y, velocity.z);
         
         if (movementDirection != Vector3.zero)
         {
@@ -56,17 +57,12 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
+        
+        CheckGround();
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void CheckGround()
     {
-        if (collision.gameObject.CompareTag("Ground"))
-            isGrounded = true;
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-            isGrounded = false;
+        isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
 }
