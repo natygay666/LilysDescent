@@ -13,6 +13,8 @@ public class EnemyAI : MonoBehaviour
 
     public EnemyState currentState = EnemyState.Idle;
 
+    public GameObject attackHitboxPrefab;
+    public float attackOffset = 1.5f;
     public Transform player;
     public float detectionRange = 10f;
     public float attackRange = 2f;
@@ -125,15 +127,23 @@ public class EnemyAI : MonoBehaviour
         animator.SetBool("IsAttacking", currentState == EnemyState.Attacking);
     }
 
+    void SpawnHitbox()
+    {
+        Vector3 spawnPos = transform.position + transform.forward * attackOffset;
+
+        GameObject hitbox = Instantiate(attackHitboxPrefab, spawnPos, transform.rotation);
+
+        hitbox.tag = "EnemyAttack";
+    }
     private void AttackType1()
     {
         Debug.Log("Bite attack");
-        
+        SpawnHitbox();
     }
 
     private void AttackType2()
     {
         Debug.Log("Scratch attack");
-        
+        SpawnHitbox();
     }
 }

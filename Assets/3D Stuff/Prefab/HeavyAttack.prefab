@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3820018087351935706}
   - component: {fileID: 5956469924252208621}
   - component: {fileID: 8071975340452179238}
+  - component: {fileID: 4707150965907285788}
   m_Layer: 3
   m_Name: HeavyAttack
   m_TagString: HeavyAttack
@@ -128,3 +129,19 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
+--- !u!114 &4707150965907285788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5163103679194556863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptMachine
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: aed4ca42728a4fc4f9af8d86bf750520, type: 2}
