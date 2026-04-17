@@ -8,6 +8,11 @@ TagManager:
   - EnemyAttack
   - HpUP
   - Ground
+  - LightAttack
+  - HeavyAttack
+  - HpHealS
+  - HpHealM
+  - HpHealL
   layers:
   - Default
   - TransparentFX
