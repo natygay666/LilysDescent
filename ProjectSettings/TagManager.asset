@@ -13,6 +13,7 @@ TagManager:
   - HpHealS
   - HpHealM
   - HpHealL
+  - PlayerRanged
   layers:
   - Default
   - TransparentFX
