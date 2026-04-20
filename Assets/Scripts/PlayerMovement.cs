@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject blockPrefab;
 
     private Rigidbody rb;
-    private Animator animator;
+    private Animator PlayerAnimator;
 
     private bool isGrounded;
     private float currentSpeed;
@@ -34,7 +34,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        animator = GetComponent<Animator>();
+        PlayerAnimator = GetComponent<Animator>();
     }
 
     void Update()
@@ -187,12 +187,12 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAnimations()
     {
-        animator.SetFloat("Speed", currentSpeed);
+        PlayerAnimator.SetFloat("Speed", currentSpeed);
 
-        animator.SetBool("Idle", currentState == PlayerState.Idle);
-        animator.SetBool("Moving", currentState == PlayerState.Moving);
-        animator.SetBool("Jumping", currentState == PlayerState.Jumping);
-        animator.SetBool("Blocking", currentState == PlayerState.Blocking);
+        PlayerAnimator.SetBool("Idle", currentState == PlayerState.Idle);
+        PlayerAnimator.SetBool("Moving", currentState == PlayerState.Moving);
+        PlayerAnimator.SetBool("Jumping", currentState == PlayerState.Jumping);
+        PlayerAnimator.SetBool("Blocking", currentState == PlayerState.Blocking);
     }
 
     // ===== GROUND =====
