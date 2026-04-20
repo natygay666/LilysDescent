@@ -101,7 +101,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 951
-        y: 2777
+        y: 2789
         width: 2166
         height: 1226
       alignment: 0
@@ -122,8 +122,8 @@ TextureImporter:
       name: FloralFrame_Tricolor_UI_1
       rect:
         serializedVersion: 2
-        x: 958
-        y: 1420
+        x: 964
+        y: 1444
         width: 2166
         height: 1226
       alignment: 0
