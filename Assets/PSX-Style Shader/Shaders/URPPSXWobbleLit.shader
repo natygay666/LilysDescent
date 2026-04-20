@@ -57,13 +57,11 @@ SubShader
             Varyings o;
 
             float3 pos = v.positionOS.xyz;
-
-            // 🎮 WOBBLE (temblor tipo PS1)
+            
             float t = _Time.y * _WobbleSpeed;
             float noise = hash(pos + t);
             pos += (noise - 0.5) * _WobbleStrength;
-
-            // 🎮 SNAP (cuantización de vértices)
+            
             float2 res = max(_SnapResolution.xy, 1.0);
 
             float4 clip = TransformObjectToHClip(pos);

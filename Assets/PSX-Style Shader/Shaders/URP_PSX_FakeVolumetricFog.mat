@@ -29,8 +29,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Intensity: 1
-    - _Softness: 1
+    - _Intensity: 2
+    - _Softness: 1.42
     m_Colors:
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 0.5}
     - _ScrollSpeed: {r: 0.07, g: 0.04, b: 0.06, a: 0}

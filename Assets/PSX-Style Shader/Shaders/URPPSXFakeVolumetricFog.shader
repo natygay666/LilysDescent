@@ -60,15 +60,13 @@ SubShader
         float4 frag (Varyings i) : SV_Target
         {
             float2 uv = i.uv;
-
-            // movimiento tipo PS1
+            
             uv += _Time.y * _ScrollSpeed.xy;
 
             float noise = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv).r;
 
             float alpha = noise * _Color.a * _Intensity;
-
-            // suavizado por distancia
+            
             float dist = distance(_WorldSpaceCameraPos, i.worldPos);
             alpha *= saturate(1.0 / (dist * 0.1 + 1));
 

@@ -3,17 +3,33 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed;
-    public float rotationSpeed;
+    public enum PlayerState
+    {
+        Idle,
+        Moving,
+        Jumping,
+        Blocking
+    }
+
+    public PlayerState currentState;
+
+    [Header("Movement")]
+    public float speed = 5f;
+    public float rotationSpeed = 700f;
     public float jumpForce = 5f;
 
+    [Header("References")]
     public Transform cameraTransform;
+    public Transform blockSpawnPoint;
+    public GameObject blockPrefab;
 
     private Rigidbody rb;
-    private bool isGrounded;
     private Animator animator;
 
+    private bool isGrounded;
     private float currentSpeed;
+
+    private GameObject currentBlock;
 
     void Start()
     {
@@ -23,9 +39,108 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        float verticalInput = Input.GetAxis("Vertical");
+        CheckGround();
+        HandleState();
+        HandleAnimations();
+    }
 
+    void HandleState()
+    {
+        // INPUT
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+        bool isMovingInput = (h != 0 || v != 0);
+        bool jumpPressed = Input.GetKeyDown(KeyCode.Space);
+        bool blocking = Input.GetMouseButton(2); // ruedita presionada
+
+        // PRIORIDAD DE ESTADOS
+        if (blocking)
+        {
+            ChangeState(PlayerState.Blocking);
+        }
+        else if (!isGrounded)
+        {
+            ChangeState(PlayerState.Jumping);
+        }
+        else if (isMovingInput)
+        {
+            ChangeState(PlayerState.Moving);
+        }
+        else
+        {
+            ChangeState(PlayerState.Idle);
+        }
+
+        // EJECUCIÓN
+        switch (currentState)
+        {
+            case PlayerState.Idle:
+                Idle();
+                break;
+
+            case PlayerState.Moving:
+                Move(h, v);
+                break;
+
+            case PlayerState.Jumping:
+                Move(h, v);
+                if (jumpPressed && isGrounded)
+                {
+                    Jump();
+                }
+                break;
+
+            case PlayerState.Blocking:
+                Block();
+                break;
+        }
+    }
+
+    void ChangeState(PlayerState newState)
+    {
+        if (currentState == newState) return;
+
+        ExitState(currentState);
+        currentState = newState;
+        EnterState(newState);
+    }
+
+    void EnterState(PlayerState state)
+    {
+        switch (state)
+        {
+            case PlayerState.Blocking:
+                if (currentBlock == null)
+                {
+                    currentBlock = Instantiate(blockPrefab, blockSpawnPoint.position, blockSpawnPoint.rotation, transform);
+                }
+                break;
+        }
+    }
+
+    void ExitState(PlayerState state)
+    {
+        switch (state)
+        {
+            case PlayerState.Blocking:
+                if (currentBlock != null)
+                {
+                    Destroy(currentBlock);
+                }
+                break;
+        }
+    }
+
+    // ===== ESTADOS =====
+
+    void Idle()
+    {
+        rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+    }
+
+    void Move(float h, float v)
+    {
         Vector3 camForward = cameraTransform.forward;
         Vector3 camRight = cameraTransform.right;
 
@@ -35,31 +150,52 @@ public class PlayerMovement : MonoBehaviour
         camForward.Normalize();
         camRight.Normalize();
 
-        Vector3 movementDirection = camForward * verticalInput + camRight * horizontalInput;
-        movementDirection.Normalize();
+        Vector3 direction = (camForward * v + camRight * h).normalized;
 
-        Vector3 velocity = movementDirection * speed;
+        Vector3 velocity = direction * speed;
         rb.linearVelocity = new Vector3(velocity.x, rb.linearVelocity.y, velocity.z);
-        
-        if (movementDirection != Vector3.zero)
-        {
-            Quaternion toRotation = Quaternion.LookRotation(movementDirection, Vector3.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, toRotation, rotationSpeed * Time.deltaTime);
-        }
-        
-        float targetSpeed = movementDirection.magnitude; // 0 o 1
-        currentSpeed = Mathf.Lerp(currentSpeed, targetSpeed, Time.deltaTime * 10f);
 
+        if (direction != Vector3.zero)
+        {
+            Quaternion targetRot = Quaternion.LookRotation(direction);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRot, rotationSpeed * Time.deltaTime);
+        }
+
+        float targetSpeed = direction.magnitude;
+        currentSpeed = Mathf.Lerp(currentSpeed, targetSpeed, Time.deltaTime * 10f);
+    }
+
+    void Jump()
+    {
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    }
+
+    void Block()
+    {
+        // Mientras bloquea, el jugador no se mueve
+        rb.linearVelocity = new Vector3(0, rb.linearVelocity.y, 0);
+
+        // Mantener el bloque enfrente
+        if (currentBlock != null)
+        {
+            currentBlock.transform.position = blockSpawnPoint.position;
+            currentBlock.transform.rotation = blockSpawnPoint.rotation;
+        }
+    }
+
+    // ===== ANIMACIONES =====
+
+    void HandleAnimations()
+    {
         animator.SetFloat("Speed", currentSpeed);
 
-        // Salto
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-        }
-        
-        CheckGround();
+        animator.SetBool("Idle", currentState == PlayerState.Idle);
+        animator.SetBool("Moving", currentState == PlayerState.Moving);
+        animator.SetBool("Jumping", currentState == PlayerState.Jumping);
+        animator.SetBool("Blocking", currentState == PlayerState.Blocking);
     }
+
+    // ===== GROUND =====
 
     void CheckGround()
     {
