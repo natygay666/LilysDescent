@@ -1,9 +1,8 @@
-Shader "URP/PSX/WobbleLit"
+Shader "URP/PSX/WobbleLitLily"
 {
 Properties
 {
-_MainTex("Texture", 2D) = "white" {}
-_BaseColor("Color Tint", Color) = (1,1,1,1)
+_BaseColor("Color", Color) = (0.7,0.7,0.7,1)
 
     _SnapResolution("Snap Resolution", Vector) = (320,240,0,0)
     _SnapStrength("Snap Strength", Range(0,1)) = 1
@@ -31,18 +30,13 @@ SubShader
         {
             float4 positionOS : POSITION;
             float3 normal : NORMAL;
-            float2 uv : TEXCOORD0;
         };
 
         struct Varyings
         {
             float4 positionHCS : SV_POSITION;
             float3 normalWS : TEXCOORD0;
-            float2 uv : TEXCOORD1;
         };
-
-        TEXTURE2D(_MainTex);
-        SAMPLER(sampler_MainTex);
 
         float4 _BaseColor;
 
@@ -52,6 +46,7 @@ SubShader
         float _WobbleStrength;
         float _WobbleSpeed;
 
+        // pseudo random
         float hash(float3 p)
         {
             return frac(sin(dot(p, float3(12.9898,78.233,45.164))) * 43758.5453);
@@ -62,13 +57,11 @@ SubShader
             Varyings o;
 
             float3 pos = v.positionOS.xyz;
-
-            // 🎮 WOBBLE
+            
             float t = _Time.y * _WobbleSpeed;
             float noise = hash(pos + t);
             pos += (noise - 0.5) * _WobbleStrength;
-
-            // 🎮 SNAP
+            
             float2 res = max(_SnapResolution.xy, 1.0);
 
             float4 clip = TransformObjectToHClip(pos);
@@ -78,26 +71,24 @@ SubShader
             float2 snapped = floor(ndc / pixelStep + 0.5) * pixelStep;
 
             ndc = lerp(ndc, snapped, _SnapStrength);
+
             clip.xy = ndc * clip.w;
 
             o.positionHCS = clip;
             o.normalWS = TransformObjectToWorldNormal(v.normal);
-            o.uv = v.uv;
 
             return o;
         }
 
         float4 frag (Varyings i) : SV_Target
         {
-            // textura real del material
-            float3 albedo = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, i.uv).rgb;
-
-            // iluminación simple estilo PS1
             float3 lightDir = normalize(float3(0.3,0.7,0.5));
             float NdotL = saturate(dot(i.normalWS, lightDir));
+
+            // iluminación simple tipo PS1
             float light = floor(NdotL * 4) / 4;
 
-            float3 col = albedo * _BaseColor.rgb * light;
+            float3 col = _BaseColor.rgb * light;
 
             return float4(col, 1.0);
         }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BossAI : MonoBehaviour
 {
@@ -53,7 +54,7 @@ public class BossAI : MonoBehaviour
                 break;
 
             case BossState.Attacking:
-                // Se maneja por coroutine
+                
                 break;
         }
 
@@ -146,5 +147,10 @@ public class BossAI : MonoBehaviour
 
             yield return new WaitForSeconds(0.2f);
         }
+    }
+
+    void OnDestroy()
+    {
+        SceneManager.LoadScene(6);
     }
 }
