@@ -25,6 +25,7 @@ public class EnemyAI : MonoBehaviour
     private NavMeshAgent agent;
     private Animator WolfAnimator;
     private float timer;
+    private AudioSource audioSource;
 
     void Start()
     {
@@ -157,5 +158,7 @@ public class EnemyAI : MonoBehaviour
     {
         Debug.Log("Scratch attack");
         SpawnHitbox();
+        audioSource.Play();
     }
+    
 }

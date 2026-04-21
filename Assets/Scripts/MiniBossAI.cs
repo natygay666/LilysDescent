@@ -34,6 +34,7 @@ public class MiniBossAI : MonoBehaviour
 
     private NavMeshAgent agent;
     private Animator HunterAnimator;
+    private AudioSource audioSource;
 
     private float stateTimer;
     private float attackTimer;
@@ -178,6 +179,7 @@ public class MiniBossAI : MonoBehaviour
     {
         Debug.Log("MiniBoss Projectile Attack");
         SetAnimation("GunAttack");
+        audioSource.Play();
 
         GameObject projectile = Instantiate(projectilePrefab, transform.position + Vector3.up, Quaternion.identity);
 
