@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: URP_PSX_FakeVolumetricFog
+  m_Name: URP_PSX_FakeVolumetricFog 5
   m_Shader: {fileID: 4800000, guid: 29cf72754e6a7d74fac996c061fc2a2c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,15 +24,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2a338222d68a9c24a82f19c8ac1cd2fe, type: 3}
+        m_Texture: {fileID: 2800000, guid: 6601f760b21afbf43952b59ba65d430d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _Intensity: 2
-    - _Softness: 1.42
+    - _Softness: 2.18
     m_Colors:
-    - _Color: {r: 0.63529414, g: 0.63529414, b: 0.63529414, a: 0.5}
-    - _ScrollSpeed: {r: 0.07, g: 0.04, b: 0.06, a: 0}
+    - _Color: {r: 0.5218049, g: 0.6866135, b: 0.7735849, a: 0.5}
+    - _ScrollSpeed: {r: 0.05, g: 0.01, b: 0.02, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

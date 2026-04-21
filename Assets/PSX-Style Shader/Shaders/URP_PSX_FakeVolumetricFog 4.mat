@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: URP_PSX_FakeVolumetricFog
+  m_Name: URP_PSX_FakeVolumetricFog 4
   m_Shader: {fileID: 4800000, guid: 29cf72754e6a7d74fac996c061fc2a2c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -32,7 +32,7 @@ Material:
     - _Intensity: 2
     - _Softness: 1.42
     m_Colors:
-    - _Color: {r: 0.63529414, g: 0.63529414, b: 0.63529414, a: 0.5}
+    - _Color: {r: 0.47209853, g: 0.7234223, b: 0.9716981, a: 0.9019608}
     - _ScrollSpeed: {r: 0.07, g: 0.04, b: 0.06, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
