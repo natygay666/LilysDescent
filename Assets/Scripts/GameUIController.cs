@@ -217,7 +217,7 @@ public class GameUIController : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
         isInventoryOpen = false;
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(1);
     }
     public void OnPlayButton()
     {

@@ -3734,7 +3734,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 61412108}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1033278589}
+        m_TargetAssemblyTypeName: GameUIController, Assembly-CSharp
+        m_MethodName: OnQuitToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &61412108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26860,7 +26872,7 @@ Transform:
   m_GameObject: {fileID: 931474789}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.227512, y: -0.15, z: -8.601152}
+  m_LocalPosition: {x: 10.227512, y: -1.2842699, z: -8.601152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30219,15 +30231,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -1.51
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -36820,8 +36832,8 @@ MonoBehaviour:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"EnemyMeleeAD","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"EnemyRangedAD","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"UltiValue","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LightAttack","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HeavyAttack","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"LightAttack","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"HeavyAttack","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"RangedAttack","value":{"$content":20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Animator,
       UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"AttackAudioLAttack","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioSource,
@@ -42698,15 +42710,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.6100006
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.35
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.6899986
+      value: 0.06
       objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 4f23aa6024a161140b7e1c447abe0ae4, type: 3}
       propertyPath: m_LocalRotation.w
@@ -47954,6 +47966,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1933833627}
     m_Modifications:
+    - target: {fileID: -4786603541325030815, guid: 33fedce1586947c4d81eded6b7f260d9, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHp","value":{"$content":150,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 529479489924018484, guid: 33fedce1586947c4d81eded6b7f260d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3675117
@@ -54119,7 +54136,7 @@ Transform:
   m_GameObject: {fileID: 1934876420}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.837511, y: -0.65573, z: 5.798849}
+  m_LocalPosition: {x: 4.837511, y: -1.79, z: 5.798849}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -55973,7 +55990,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010350696}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1033278589}
+        m_TargetAssemblyTypeName: GameUIController, Assembly-CSharp
+        m_MethodName: OnQuitToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2010350696
 MonoBehaviour:
   m_ObjectHideFlags: 0
