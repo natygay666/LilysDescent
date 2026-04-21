@@ -117,9 +117,10 @@ public class MiniBossAI : MonoBehaviour
 
     void HandlePlayerAggroState()
     {
-        // 👇 ahora usa WALK en lugar de RUN
+        
         SetAnimation("Walk");
-
+        HunterAnimator.SetBool("Walking", true);
+        HunterAnimator.SetBool("Attacking", false);
         float distance = Vector3.Distance(transform.position, player.position);
 
         if (distance <= attackRange && attackTimer <= 0f)
@@ -135,7 +136,8 @@ public class MiniBossAI : MonoBehaviour
     void HandleAttackingState()
     {
         transform.LookAt(player);
-
+        HunterAnimator.SetBool("Attacking", true);
+        HunterAnimator.SetBool("Walking", false);
         if (Random.value < 0.5f)
         {
             AttackType1();
@@ -149,7 +151,7 @@ public class MiniBossAI : MonoBehaviour
         currentState = EnemyState.PlayerAggro;
     }
 
-    // ================= DETECTION =================
+    
 
     void DetectPlayer()
     {
@@ -159,12 +161,12 @@ public class MiniBossAI : MonoBehaviour
         }
     }
 
-    // ================= ATTACKS =================
+    
 
     void AttackType1()
     {
         Debug.Log("MiniBoss Melee Attack");
-        SetAnimation("Attack1");
+        SetAnimation("AxeAttack");
 
         Vector3 spawnPos = transform.position + transform.forward * attackOffset;
         GameObject hitbox = Instantiate(attackHitboxPrefab, spawnPos, transform.rotation);
@@ -175,7 +177,7 @@ public class MiniBossAI : MonoBehaviour
     void AttackType2()
     {
         Debug.Log("MiniBoss Projectile Attack");
-        SetAnimation("Attack2");
+        SetAnimation("GunAttack");
 
         GameObject projectile = Instantiate(projectilePrefab, transform.position + Vector3.up, Quaternion.identity);
 
@@ -189,8 +191,7 @@ public class MiniBossAI : MonoBehaviour
             rb.linearVelocity = direction * projectileForce;
         }
     }
-
-    // ================= ANIMATION =================
+    
 
     void SetAnimation(string triggerName)
     {
