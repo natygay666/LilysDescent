@@ -125,6 +125,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tail_Sprout_Model 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1374221935993875138, guid: b88bf01965aa03a4ca663869f6776056, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1374221935993875138, guid: b88bf01965aa03a4ca663869f6776056, type: 3}
+      propertyPath: m_TagString
+      value: PlayerRanged
+      objectReference: {fileID: 0}
     - target: {fileID: 1754687781093159032, guid: b88bf01965aa03a4ca663869f6776056, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

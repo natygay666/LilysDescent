@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -4786603541325030815}
   - component: {fileID: 8373635728425220436}
   - component: {fileID: -3719042015310241289}
+  - component: {fileID: 5516939964781991476}
   m_Layer: 7
   m_Name: enemyHunter
   m_TagString: Enemy
@@ -140,13 +141,35 @@ MonoBehaviour:
   attackHitboxPrefab: {fileID: 2904539425410712160, guid: c75a68ca2d816de489fde1d2077f6854, type: 3}
   projectilePrefab: {fileID: 2904539425410712160, guid: c75a68ca2d816de489fde1d2077f6854, type: 3}
   detectionRange: 12
-  attackRange: 3
+  attackRange: 2
   moveSpeed: 3.5
   idleTime: 2
   walkTime: 4
-  attackCooldown: 2
+  attackCooldown: 4
   attackOffset: 1.5
   projectileForce: 10
+--- !u!95 &5516939964781991476
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468658976835586005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: c35cb206a8d8fd840b8c165221b39bef, type: 3}
+  m_Controller: {fileID: 9100000, guid: 3e321499913a4d141a327a89de06272e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &3156346469836510700
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -158,6 +158,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mordida 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1758221070180013764, guid: 67de132f47a58de479e0b449d5199102, type: 3}
+      propertyPath: m_TagString
+      value: HeavyAttack
+      objectReference: {fileID: 0}
     - target: {fileID: 4262306176294453418, guid: 67de132f47a58de479e0b449d5199102, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
