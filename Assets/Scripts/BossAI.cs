@@ -19,7 +19,7 @@ public class BossAI : MonoBehaviour
     public GameObject attackHitboxPrefab;
 
     private NavMeshAgent agent;
-    private Animator animator;
+    private Animator BossAnimator;
 
     [Header("Stats")]
     public float detectionRange = 15f;
@@ -37,7 +37,7 @@ public class BossAI : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        BossAnimator = GetComponent<Animator>();
         agent.speed = moveSpeed;
     }
 
@@ -92,12 +92,12 @@ public class BossAI : MonoBehaviour
         
         if (Random.value < 0.5f)
         {
-            animator.SetTrigger("Attack1");
+            BossAnimator.SetTrigger("Attack1");
             AttackType1();
         }
         else
         {
-            animator.SetTrigger("Attack2");
+            BossAnimator.SetTrigger("Attack2");
             yield return StartCoroutine(AttackType2_MeteorRain());
         }
 
@@ -109,9 +109,9 @@ public class BossAI : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        animator.SetBool("IsIdle", currentState == BossState.Idle);
-        animator.SetBool("IsChasing", currentState == BossState.PlayerAggro);
-        animator.SetBool("IsAttacking", currentState == BossState.Attacking);
+        BossAnimator.SetBool("IsIdle", currentState == BossState.Idle);
+        BossAnimator.SetBool("IsChasing", currentState == BossState.PlayerAggro);
+        BossAnimator.SetBool("IsAttacking", currentState == BossState.Attacking);
     }
     
     private void AttackType1()

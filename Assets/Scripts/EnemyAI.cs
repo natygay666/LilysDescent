@@ -23,13 +23,13 @@ public class EnemyAI : MonoBehaviour
     public float moveSpeed = 3f;
 
     private NavMeshAgent agent;
-    private Animator animator;
+    private Animator WolfAnimator;
     private float timer;
 
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        WolfAnimator = GetComponent<Animator>();
         timer = idleTime;
     }
 
@@ -121,10 +121,10 @@ public class EnemyAI : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        animator.SetBool("IsIdle", currentState == EnemyState.Idle);
-        animator.SetBool("IsWalking", currentState == EnemyState.Walking);
-        animator.SetBool("IsPlayerAggro", currentState == EnemyState.PlayerAggro);
-        animator.SetBool("IsAttacking", currentState == EnemyState.Attacking);
+        WolfAnimator.SetBool("IsIdle", currentState == EnemyState.Idle);
+        WolfAnimator.SetBool("IsWalking", currentState == EnemyState.Walking);
+        WolfAnimator.SetBool("IsPlayerAggro", currentState == EnemyState.PlayerAggro);
+        WolfAnimator.SetBool("IsAttacking", currentState == EnemyState.Attacking);
     }
 
     void SpawnHitbox()

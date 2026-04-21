@@ -33,7 +33,7 @@ public class MiniBossAI : MonoBehaviour
     public float projectileForce = 10f;
 
     private NavMeshAgent agent;
-    private Animator animator;
+    private Animator HunterAnimator;
 
     private float stateTimer;
     private float attackTimer;
@@ -41,7 +41,7 @@ public class MiniBossAI : MonoBehaviour
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
-        animator = GetComponent<Animator>();
+        HunterAnimator = GetComponent<Animator>();
 
         stateTimer = idleTime;
         attackTimer = 0f;
@@ -194,11 +194,11 @@ public class MiniBossAI : MonoBehaviour
 
     void SetAnimation(string triggerName)
     {
-        animator.ResetTrigger("Idle");
-        animator.ResetTrigger("Walk");
-        animator.ResetTrigger("Attack1");
-        animator.ResetTrigger("Attack2");
+        HunterAnimator.ResetTrigger("Idle");
+        HunterAnimator.ResetTrigger("Walk");
+        HunterAnimator.ResetTrigger("Attack1");
+        HunterAnimator.ResetTrigger("Attack2");
 
-        animator.SetTrigger(triggerName);
+        HunterAnimator.SetTrigger(triggerName);
     }
 }

@@ -132,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // ===== ESTADOS =====
+    
 
     void Idle()
     {
@@ -183,7 +183,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    // ===== ANIMACIONES =====
+    
 
     void HandleAnimations()
     {
@@ -195,7 +195,7 @@ public class PlayerMovement : MonoBehaviour
         PlayerAnimator.SetBool("Blocking", currentState == PlayerState.Blocking);
     }
 
-    // ===== GROUND =====
+   
 
     void CheckGround()
     {

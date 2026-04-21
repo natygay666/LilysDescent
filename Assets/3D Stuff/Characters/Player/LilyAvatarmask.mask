@@ -1,0 +1,375 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LilyAvatarmask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: ButterKnife
+    m_Weight: 0
+  - m_Path: Lily_Hair_Ears
+    m_Weight: 1
+  - m_Path: Lily_Head_Body
+    m_Weight: 1
+  - m_Path: Lily_rig_A
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.L/Lily_hand_ik.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.L/Lily_hand_ik.L/MCH-Lily_upper_arm_ik_target.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.L/Lily_hand_ik.L/MCH-Lily_upper_arm_ik_target.L/MCH-Lily_upper_arm_ik_target.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.R/Lily_hand_ik.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.R/Lily_hand_ik.R/MCH-Lily_upper_arm_ik_target.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_hand_ik.parent.R/Lily_hand_ik.R/MCH-Lily_upper_arm_ik_target.R/MCH-Lily_upper_arm_ik_target.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.L/Lily_upper_arm_ik_target.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.L/Lily_upper_arm_ik_target.L/Lily_upper_arm_ik_target.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.R/Lily_upper_arm_ik_target.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-Lily_upper_arm_ik_target.parent.R/Lily_upper_arm_ik_target.R/Lily_upper_arm_ik_target.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/chest
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/chest/chest_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/hips
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/hips/hips_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/MCH-WGT-hips
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/MCH-WGT-hips/MCH-WGT-hips_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine/ORG-Lily_spine
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine/ORG-Lily_spine/ORG-Lily_spine_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine.001/ORG-Lily_spine.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.001/Lily_spine_fk.001/MCH-Lily_spine/Lily_spine_fk/tweak_Lily_spine.001/ORG-Lily_spine.001/ORG-Lily_spine.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/MCH-WGT-chest
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/MCH-WGT-chest/MCH-WGT-chest_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/DEF-Lily_neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/DEF-Lily_neck/DEF-Lily_neck.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/DEF-Lily_neck/DEF-Lily_neck.001/DEF-Lily_head
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/DEF-Lily_neck/DEF-Lily_neck.001/DEF-Lily_head/DEF-Lily_head_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-ROT-head
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-ROT-head/head
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-ROT-head/head/head_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-STR-neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-Lily_neck.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-Lily_neck.001/tweak_Lily_neck.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/MCH-STR-neck/MCH-Lily_neck.001/tweak_Lily_neck.001/tweak_Lily_neck.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/tweak_Lily_neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/MCH-ROT-neck/neck/tweak_Lily_neck/tweak_Lily_neck_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.L/DEF-Lily_ear.02.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.L/DEF-Lily_ear.02.L/DEF-Lily_ear.03.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.L/DEF-Lily_ear.02.L/DEF-Lily_ear.03.L/DEF-Lily_ear.03.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.R/DEF-Lily_ear.02.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.R/DEF-Lily_ear.02.R/DEF-Lily_ear.03.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/DEF-Lily_ear.01.R/DEF-Lily_ear.02.R/DEF-Lily_ear.03.R/DEF-Lily_ear.03.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.L/Lily_ear.02.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.L/Lily_ear.02.L/Lily_ear.03.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.L/Lily_ear.02.L/Lily_ear.03.L/Lily_ear.03.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.R/Lily_ear.02.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.R/Lily_ear.02.R/Lily_ear.03.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/Lily_ear.01.R/Lily_ear.02.R/Lily_ear.03.R/Lily_ear.03.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.L/ORG-Lily_ear.02.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.L/ORG-Lily_ear.02.L/ORG-Lily_ear.03.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.L/ORG-Lily_ear.02.L/ORG-Lily_ear.03.L/ORG-Lily_ear.03.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.R/ORG-Lily_ear.02.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.R/ORG-Lily_ear.02.R/ORG-Lily_ear.03.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_neck/ORG-Lily_neck.001/ORG-Lily_head/ORG-Lily_ear.01.R/ORG-Lily_ear.02.R/ORG-Lily_ear.03.R/ORG-Lily_ear.03.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L/DEF-Lily_upper_arm.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L/DEF-Lily_upper_arm.L.001/DEF-Lily_forearm.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L/DEF-Lily_upper_arm.L.001/DEF-Lily_forearm.L/DEF-Lily_forearm.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L/DEF-Lily_upper_arm.L.001/DEF-Lily_forearm.L/DEF-Lily_forearm.L.001/DEF-Lily_hand.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/DEF-Lily_upper_arm.L/DEF-Lily_upper_arm.L.001/DEF-Lily_forearm.L/DEF-Lily_forearm.L.001/DEF-Lily_hand.L/DEF-Lily_hand.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/Lily_upper_arm_parent.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/Lily_upper_arm_parent.L/Lily_upper_arm_parent.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/Lily_upper_arm_fk.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/Lily_upper_arm_fk.L/Lily_forearm_fk.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/Lily_upper_arm_fk.L/Lily_forearm_fk.L/MCH-Lily_hand_fk.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/Lily_upper_arm_fk.L/Lily_forearm_fk.L/MCH-Lily_hand_fk.L/Lily_hand_fk.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/Lily_upper_arm_fk.L/Lily_forearm_fk.L/MCH-Lily_hand_fk.L/Lily_hand_fk.L/Lily_hand_fk.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/MCH-Lily_upper_arm_ik_swing.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/MCH-Lily_upper_arm_ik_swing.L/Lily_upper_arm_ik.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/MCH-Lily_upper_arm_ik_swing.L/Lily_upper_arm_ik.L/MCH-Lily_forearm_ik.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_parent.L/MCH-Lily_upper_arm_ik_swing.L/Lily_upper_arm_ik.L/MCH-Lily_forearm_ik.L/MCH-Lily_forearm_ik.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_tweak.L/Lily_upper_arm_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/MCH-Lily_upper_arm_tweak.L/Lily_upper_arm_tweak.L/Lily_upper_arm_tweak.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/MCH-Lily_upper_arm_parent_widget.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/MCH-Lily_upper_arm_parent_widget.L/MCH-Lily_upper_arm_parent_widget.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/MCH-Lily_upper_arm_tweak.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/MCH-Lily_upper_arm_tweak.L.001/Lily_upper_arm_tweak.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/MCH-Lily_upper_arm_tweak.L.001/Lily_upper_arm_tweak.L.001/Lily_upper_arm_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L/Lily_forearm_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L/Lily_forearm_tweak.L/Lily_forearm_tweak.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L.001/Lily_forearm_tweak.L.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/MCH-Lily_forearm_tweak.L.001/Lily_forearm_tweak.L.001/Lily_forearm_tweak.L.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/ORG-Lily_hand.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/ORG-Lily_hand.L/MCH-Lily_hand_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/ORG-Lily_hand.L/MCH-Lily_hand_tweak.L/Lily_hand_tweak.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.L/ORG-Lily_upper_arm.L/ORG-Lily_forearm.L/ORG-Lily_hand.L/MCH-Lily_hand_tweak.L/Lily_hand_tweak.L/Lily_hand_tweak.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R/DEF-Lily_upper_arm.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R/DEF-Lily_upper_arm.R.001/DEF-Lily_forearm.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R/DEF-Lily_upper_arm.R.001/DEF-Lily_forearm.R/DEF-Lily_forearm.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R/DEF-Lily_upper_arm.R.001/DEF-Lily_forearm.R/DEF-Lily_forearm.R.001/DEF-Lily_hand.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/DEF-Lily_upper_arm.R/DEF-Lily_upper_arm.R.001/DEF-Lily_forearm.R/DEF-Lily_forearm.R.001/DEF-Lily_hand.R/DEF-Lily_hand.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/Lily_upper_arm_parent.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/Lily_upper_arm_parent.R/Lily_upper_arm_parent.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/Lily_upper_arm_fk.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/Lily_upper_arm_fk.R/Lily_forearm_fk.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/Lily_upper_arm_fk.R/Lily_forearm_fk.R/MCH-Lily_hand_fk.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/Lily_upper_arm_fk.R/Lily_forearm_fk.R/MCH-Lily_hand_fk.R/Lily_hand_fk.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/Lily_upper_arm_fk.R/Lily_forearm_fk.R/MCH-Lily_hand_fk.R/Lily_hand_fk.R/Lily_hand_fk.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/MCH-Lily_upper_arm_ik_swing.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/MCH-Lily_upper_arm_ik_swing.R/Lily_upper_arm_ik.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/MCH-Lily_upper_arm_ik_swing.R/Lily_upper_arm_ik.R/MCH-Lily_forearm_ik.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_parent.R/MCH-Lily_upper_arm_ik_swing.R/Lily_upper_arm_ik.R/MCH-Lily_forearm_ik.R/MCH-Lily_forearm_ik.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_tweak.R/Lily_upper_arm_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/MCH-Lily_upper_arm_tweak.R/Lily_upper_arm_tweak.R/Lily_upper_arm_tweak.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/MCH-Lily_upper_arm_parent_widget.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/MCH-Lily_upper_arm_parent_widget.R/MCH-Lily_upper_arm_parent_widget.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/MCH-Lily_upper_arm_tweak.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/MCH-Lily_upper_arm_tweak.R.001/Lily_upper_arm_tweak.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/MCH-Lily_upper_arm_tweak.R.001/Lily_upper_arm_tweak.R.001/Lily_upper_arm_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R/Lily_forearm_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R/Lily_forearm_tweak.R/Lily_forearm_tweak.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R.001/Lily_forearm_tweak.R.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/MCH-Lily_forearm_tweak.R.001/Lily_forearm_tweak.R.001/Lily_forearm_tweak.R.001_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/ORG-Lily_hand.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/ORG-Lily_hand.R/MCH-Lily_hand_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/ORG-Lily_hand.R/MCH-Lily_hand_tweak.R/Lily_hand_tweak.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.003/ORG-Lily_spine.003/ORG-Lily_torso_clav.01.R/ORG-Lily_upper_arm.R/ORG-Lily_forearm.R/ORG-Lily_hand.R/MCH-Lily_hand_tweak.R/Lily_hand_tweak.R/Lily_hand_tweak.R_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.004
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-Lily_spine.003/Lily_spine_fk.003/tweak_Lily_spine.004/tweak_Lily_spine.004_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-pivot
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-pivot/tweak_Lily_spine.002
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-pivot/tweak_Lily_spine.002/ORG-Lily_spine.002
+    m_Weight: 1
+  - m_Path: Lily_rig_A/MCH-torso.parent/torso/MCH-Lily_spine.002/Lily_spine_fk.002/MCH-pivot/tweak_Lily_spine.002/ORG-Lily_spine.002/ORG-Lily_spine.002_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/DEF-Lily_spine
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/DEF-Lily_spine/DEF-Lily_spine.001
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/DEF-Lily_spine/DEF-Lily_spine.001/DEF-Lily_spine.002
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/DEF-Lily_spine/DEF-Lily_spine.001/DEF-Lily_spine.002/DEF-Lily_spine.003
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/DEF-Lily_spine/DEF-Lily_spine.001/DEF-Lily_spine.002/DEF-Lily_spine.003/DEF-Lily_spine.003_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/VIS_Lily_upper_arm_ik_pole.L
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/VIS_Lily_upper_arm_ik_pole.L/VIS_Lily_upper_arm_ik_pole.L_end
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/VIS_Lily_upper_arm_ik_pole.R
+    m_Weight: 1
+  - m_Path: Lily_rig_A/root/VIS_Lily_upper_arm_ik_pole.R/VIS_Lily_upper_arm_ik_pole.R_end
+    m_Weight: 1
+  - m_Path: OldSpoon
+    m_Weight: 1

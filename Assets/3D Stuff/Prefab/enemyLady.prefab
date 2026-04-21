@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAI
   currentState: 0
-  attackHitboxPrefab: {fileID: 2904539425410712160, guid: c75a68ca2d816de489fde1d2077f6854, type: 3}
+  attackHitboxPrefab: {fileID: 2904539425410712160, guid: 3b70aae209b861d448aeb92c7bc854bf, type: 3}
   attackOffset: 1.5
   player: {fileID: 3763366356018677397, guid: 21aae90b010a8234b80f2a6401cc3a61, type: 3}
   detectionRange: 10
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHp","value":{"$content":50,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"EnemyHp","value":{"$content":150,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &8373635728425220436
