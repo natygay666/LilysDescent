@@ -151,6 +151,6 @@ public class BossAI : MonoBehaviour
 
     void OnDestroy()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(5);
     }
 }
