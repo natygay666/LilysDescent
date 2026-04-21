@@ -762,8 +762,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Music \n\nThe Skydeep Cenote Theme  Lost in the Deep  - FFXIV OST\n\r\nDawntrail
     Somber Theme - FFXIV OST\n\n\nSpecial thanks to Arturo Grande for his guidance
-    in the creation of the 3D model.\n\nDedicated to Yuna (2014-2022).\nFly high,
-    girl.\n\n"
+    in the creation of the 3D model.\n\nAlso to ChatGPT for helping A LOT to make
+    this game happen, without it we would have most likely failed to deliver in time.\n\nDedicated
+    to Yuna (2014-2022).\nFly high, girl.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d1e7f12685765ea40a8a35ada2fef463, type: 2}
   m_sharedMaterial: {fileID: -3330044307336698098, guid: d1e7f12685765ea40a8a35ada2fef463, type: 2}

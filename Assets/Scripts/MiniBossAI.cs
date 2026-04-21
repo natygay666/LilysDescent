@@ -197,8 +197,8 @@ public class MiniBossAI : MonoBehaviour
     {
         HunterAnimator.ResetTrigger("Idle");
         HunterAnimator.ResetTrigger("Walk");
-        HunterAnimator.ResetTrigger("Attack1");
-        HunterAnimator.ResetTrigger("Attack2");
+        HunterAnimator.ResetTrigger("AxeAttack");
+        HunterAnimator.ResetTrigger("GunAttack");
 
         HunterAnimator.SetTrigger(triggerName);
     }
