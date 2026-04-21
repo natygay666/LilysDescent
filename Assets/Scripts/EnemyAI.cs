@@ -134,10 +134,10 @@ public class EnemyAI : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        WolfAnimator.SetBool("IsIdle", currentState == EnemyState.Idle);
-        WolfAnimator.SetBool("IsWalking", currentState == EnemyState.Walking);
-        WolfAnimator.SetBool("IsPlayerAggro", currentState == EnemyState.PlayerAggro);
-        WolfAnimator.SetBool("IsAttacking", currentState == EnemyState.Attacking);
+        WolfAnimator.SetBool("Idle", currentState == EnemyState.Idle);
+        WolfAnimator.SetBool("Walking", currentState == EnemyState.Walking);
+        WolfAnimator.SetBool("PlayerAggro", currentState == EnemyState.PlayerAggro);
+        WolfAnimator.SetBool("Attacking", currentState == EnemyState.Attacking);
     }
 
     void SpawnHitbox()
