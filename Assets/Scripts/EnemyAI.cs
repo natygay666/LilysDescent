@@ -31,6 +31,9 @@ public class EnemyAI : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         WolfAnimator = GetComponent<Animator>();
         timer = idleTime;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        timer = idleTime;
     }
 
     void Update()
@@ -63,23 +66,32 @@ public class EnemyAI : MonoBehaviour
         }
         DetectPlayer();
     }
+    
+    
+
+    private bool hasDestination = false;
 
     private void HandleWalkingState()
     {
-        Vector3 randomDirection = Random.insideUnitSphere * 5f;
-        randomDirection += transform.position;
+        if (!hasDestination)
+        {
+            Vector3 randomDirection = Random.insideUnitSphere * 5f + transform.position;
 
-        NavMeshHit hit;
-        NavMesh.SamplePosition(randomDirection, out hit, 5f, NavMesh.AllAreas);
-        agent.SetDestination(hit.position);
-        agent.speed = moveSpeed;
+            NavMeshHit hit;
+            NavMesh.SamplePosition(randomDirection, out hit, 5f, NavMesh.AllAreas);
+            agent.SetDestination(hit.position);
+
+            hasDestination = true;
+        }
 
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
             currentState = EnemyState.Idle;
             timer = idleTime;
+            hasDestination = false;
         }
+
         DetectPlayer();
     }
 
