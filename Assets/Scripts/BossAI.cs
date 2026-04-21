@@ -109,9 +109,9 @@ public class BossAI : MonoBehaviour
 
     private void UpdateAnimation()
     {
-        BossAnimator.SetBool("IsIdle", currentState == BossState.Idle);
-        BossAnimator.SetBool("IsChasing", currentState == BossState.PlayerAggro);
-        BossAnimator.SetBool("IsAttacking", currentState == BossState.Attacking);
+        BossAnimator.SetBool("Idle", currentState == BossState.Idle);
+        BossAnimator.SetBool("PlayerAggro", currentState == BossState.PlayerAggro);
+        BossAnimator.SetBool("Attacking", currentState == BossState.Attacking);
     }
     
     private void AttackType1()
