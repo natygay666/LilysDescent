@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -2819117242537535584}
   - component: {fileID: -4786603541325030815}
   - component: {fileID: 8373635728425220436}
+  - component: {fileID: 7885261122669891539}
   m_Layer: 7
   m_Name: enemy
   m_TagString: Enemy
@@ -109,7 +110,7 @@ MonoBehaviour:
   player: {fileID: 3763366356018677397, guid: 21aae90b010a8234b80f2a6401cc3a61, type: 3}
   detectionRange: 10
   attackRange: 2
-  idleTime: 3
+  idleTime: 10
   walkTime: 5
   moveSpeed: 3
 --- !u!114 &-4786603541325030815
@@ -144,6 +145,28 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 16c808d63859d5248aa4a21d38dcdced, type: 2}
+--- !u!95 &7885261122669891539
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6468658976835586005}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 592784289aee8af40a995972e852fa97, type: 3}
+  m_Controller: {fileID: 9100000, guid: d7819ec906d895c46a5d175fc71c3f19, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &8374602428571174876
 PrefabInstance:
   m_ObjectHideFlags: 0
